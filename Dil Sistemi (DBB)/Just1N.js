@@ -45,5 +45,5 @@ setup(Util);
 const loader = new LoadCommands(bot);
 loader.load(bot.cmd, "./DBB/Komutlar/");
 bot.variables({
-    language: ""
+    language: "eng"
 });
