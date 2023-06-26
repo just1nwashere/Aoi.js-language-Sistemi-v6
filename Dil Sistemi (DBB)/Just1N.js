@@ -19,7 +19,7 @@ const bot = new AoiClient({
 //SoundCloud & Youtube
 const voice = new AoiVoice(bot, {
     searchOptions: {
-        youtubeClient: "D9NPfM1bMer1amerPRPhaA",
+        youtubeClient: "Youtube Client İD'si",
         youtubegl: "TR",
     },
     requestOptions: {
@@ -43,7 +43,7 @@ const { Util } = require("aoi.js");
 const { setup } = require("aoi.parser");
 setup(Util);
 const loader = new LoadCommands(bot);
-loader.load(bot.cmd, "./DBB/Komutlar/");
+loader.load(bot.cmd, "./Komutlar/");
 bot.variables({
     language: "eng"
 });
